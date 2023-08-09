@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>currencyApp</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+    <div id="container">
+        <div id="main">
+            <div class="header-wrapper">
+            <h4>DOVİZ KURU ÇEVİRİCİ</h4>
+            </div>
+            <div class="content-wrapper">
+            <input type="number" id="amount" placeholder="miktar">
+            <select id="firstCurrencyOption">
+                <option >EUR</option>
+                <option selected >USD</option>
+                <option >TRY</option>
+            </select>
+            <i class="fa-solid fa-arrow-right"></i>
+            <select id="secondCurrencyOption">
+                <option >EUR</option>
+                <option >USD</option>
+                <option selected >TRY</option>
+            </select>
+            <input type="number" id="result" readonly placeholder="sonuç">
+            </div>
+
+        </div>
+        
+    </div>
+    <script src="currency.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
